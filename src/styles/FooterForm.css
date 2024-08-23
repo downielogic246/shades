@@ -1,0 +1,60 @@
+.footer_form {
+  grid-area: form;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.input_holder {
+  width: 80%;
+  border: 3px #9b1c314c solid;
+  background-color: #9a61324c;
+  color: var(--red);
+}
+
+#marketing_name,
+#marketing_email {
+  width: 100%;
+  height: 100%;
+  padding: 15px 50px 15px 5px;
+  background: none;
+  font-size: 15px;
+  color: var(--red);
+  font-family: "Tienne", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+input::placeholder {
+  color: var(--red);
+}
+
+input:focus {
+  outline: 0;
+}
+
+#marketing_submit {
+  width: 80%;
+  background-color: var(--red);
+  color: var(--yellow);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  border: 3px var(--dark-brown) solid;
+  padding: 28px 0;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thanks {
+  color: var(--red);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.75rem;
+}

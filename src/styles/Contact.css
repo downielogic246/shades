@@ -1,0 +1,305 @@
+.contact-container {
+  background-color: var(--white);
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--red);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chaunies-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.contact-questions {
+  background-color: white;
+  width: 600px;
+  height: max-content;
+  border-radius: 20px;
+  border: 5px solid var(--red);
+  padding: 20px;
+  color: var(--red);
+}
+
+.contact-questions h3 {
+  font-size: 50px;
+  color: var(--red);
+}
+
+.question {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.question-heading {
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.question-heading i {
+  padding-right: 10px;
+  color: var(--yellow);
+}
+
+.question-response {
+  text-align: left;
+  padding: 5px 10px 10px 10px;
+  font-size: 20px;
+}
+.screen-outer {
+  /* display: flex; */
+  position: relative;
+  width: 350px;
+  height: 500px;
+  background-color: rgb(12, 12, 12);
+  border: 2px solid black;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.screen-inner {
+  background-color: var(--red);
+  position: relative;
+  height: 97%;
+  width: 90%;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 0;
+}
+
+.notch {
+  background-color: rgb(12, 12, 12);
+  width: 60%;
+  height: 20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  position: relative;
+  top: 0;
+}
+.speaker {
+  width: 60px;
+  height: 8px;
+  border-radius: 100px;
+  background-color: grey;
+  position: absolute;
+  top: 5px;
+  right: 65px;
+}
+
+.camera {
+  width: 8px;
+  height: 8px;
+  border-radius: 100px;
+  background-color: grey;
+  position: absolute;
+  top: 3px;
+  right: 40px;
+}
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+}
+
+.socialMedia li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  color: var(--white);
+  border: 2px solid var(--white);
+  border-radius: 50px;
+  text-transform: none;
+}
+
+.socialMedia li a {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  padding: 5px;
+  font-size: 25px;
+  text-decoration: none;
+  color: var(--white);
+  text-align: center;
+
+  padding: 15px 20px;
+}
+.socialMedia li a:hover {
+  background-color: rgba(240, 248, 255, 0.222);
+}
+.socialMedia li a h2 {
+  text-align: center;
+  font-size: 17px;
+  text-decoration: none;
+  color: var(--white);
+  font-family: "Tienne", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+[class*="vol-"],
+.power {
+  width: 5px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+}
+
+.vol-up {
+  top: 100px;
+  right: 265px;
+}
+.vol-down {
+  top: 170px;
+  right: 265px;
+}
+.power {
+  top: 140px;
+  left: 265px;
+}
+
+@media (max-width: 990px) {
+  .chaunies-contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .contact-questions {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-title {
+    font-size: 50px;
+  }
+  .vol-up {
+    top: 100px;
+    right: 265px;
+  }
+
+  .vol-down {
+    top: 170px;
+    right: 265px;
+  }
+
+  .power {
+    top: 140px;
+    left: 267px;
+  }
+  .contact-questions {
+    display: none;
+  }
+
+  .chaunies-contact {
+    padding: 50px 0 0 0;
+  }
+}
+
+@media (max-width: 374px) {
+  .screen-outer {
+    width: 300px;
+    height: 400px;
+  }
+  .socialMedia li a h2 {
+    text-align: center;
+    font-size: 14px;
+  }
+  .vol-up {
+    top: 100px;
+    right: 225px;
+  }
+
+  .vol-down {
+    top: 170px;
+    right: 225px;
+  }
+
+  .power {
+    top: 140px;
+    left: 227px;
+  }
+}
+@media (max-width: 325px) {
+  .screen-outer {
+    width: 250px;
+    height: 350px;
+  }
+
+  .socialMedia li a h2 {
+    font-size: 12px;
+  }
+
+  .speaker {
+    width: 50px;
+    height: 8px;
+    border-radius: 100px;
+    background-color: grey;
+    position: absolute;
+    top: 5px;
+    right: 45px;
+  }
+
+  .camera {
+    right: 30px;
+    top: 3px;
+  }
+  .vol-up {
+    top: 100px;
+    right: 187px;
+  }
+
+  .vol-down {
+    top: 170px;
+    right: 187px;
+  }
+
+  .power {
+    top: 140px;
+    left: 188px;
+  }
+}
+
+@media (min-height: 1266px) {
+  .contact-container {
+    height: 88vh;
+  }
+}
