@@ -1,25 +1,25 @@
 import { React, useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import Shop from "./pages/Shop";
-import About from "./pages/About";
-import ScrollToTop from "./components/ScrollToTop";
-// import Cart from "./components/Cart";
-import NotFound from "./pages/NotFound";
-import Terms from "./pages/Terms";
-import Contact from "./pages/Contact";
-import "./styles/index.css";
-import "./styles/Footer.css";
-import "./styles/FooterForm.css";
-// import "./styles/Cart.css";
-import "./styles/Nav.css";
-import "./styles/Home.css";
-import "./styles/Shop.css";
-import "./styles/About.css";
-import "./styles/Checkout.css";
-import "./styles/Contact.css";
+import Nav from "/src/components/Nav";
+import Footer from "/src/components/Footer";
+import Home from "/src/pages/Home";
+import Shop from "/src/pages/Shop";
+import About from "/src/pages/About";
+import ScrollToTop from "/src/components/ScrollToTop";
+// import Cart from "/src/components/Cart";
+import NotFound from "/src/pages/NotFound";
+import Terms from "/src/pages/Terms";
+import Contact from "/src/pages/Contact";
+import "/src/styles/index.css";
+import "/src/styles/Footer.css";
+import "/src/styles/FooterForm.css";
+// import "/src/styles/Cart.css";
+import "/src/styles/Nav.css";
+import "/src/styles/Home.css";
+import "/src/styles/Shop.css";
+import "/src/styles/About.css";
+import "/src/styles/Checkout.css";
+import "/src/styles/Contact.css";
 
 const shop = [
   {

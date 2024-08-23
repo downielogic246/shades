@@ -2,18 +2,18 @@ import React, { useState } from "react";
 
 import { Link } from "react-router-dom";
 
-import backdropImage from "src/assets/our_story_background.jpg";
-import dancaImage1 from "src/assets/THREE_STACKED_FINAL.jpg";
-import dancaImage2 from "src/assets/THREE_STACKED_ONE_SIDE_FINAL.jpg";
-import dancaImage3 from "src/assets/SIDE_FINAL.jpg";
+import backdropImage from "/src/assets/our_story_background.jpg";
+import dancaImage1 from "/src/assets/THREE_STACKED_FINAL.jpg";
+import dancaImage2 from "/src/assets/THREE_STACKED_ONE_SIDE_FINAL.jpg";
+import dancaImage3 from "/src/assets/SIDE_FINAL.jpg";
 
-import ceoImage1 from "src/assets/CLOSED_FINAL.jpg";
-import ceoImage2 from "src/assets/DOUBLE_CLOSED_FINAL.jpg";
-import ceoImage3 from "src/assets/DOUBLE_CLOSED_WITH_CASE_FINAL.jpg";
-import ceoImage4 from "src/assets/OPENED._FINALjpg.jpg";
+import ceoImage1 from "/src/assets/CLOSED_FINAL.jpg";
+import ceoImage2 from "/src/assets/DOUBLE_CLOSED_FINAL.jpg";
+import ceoImage3 from "/src/assets/DOUBLE_CLOSED_WITH_CASE_FINAL.jpg";
+import ceoImage4 from "/src/assets/OPENED._FINALjpg.jpg";
 
-import studio_photo1 from "src/assets/marlon_machel_main_background.jpg";
-import studio_photo2 from "src/assets/marlon_only_background.jpg";
+import studio_photo1 from "/src/assets/marlon_machel_main_background.jpg";
+import studio_photo2 from "/src/assets/marlon_only_background.jpg";
 
 const Home = () => {
   const ceoImages = [ceoImage1, ceoImage2, ceoImage3, ceoImage4];
