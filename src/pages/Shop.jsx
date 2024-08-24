@@ -1,13 +1,13 @@
 import { React, useEffect, useRef, useState } from "react";
-// import Checkout from "src/components/Checkout";
-import dancaImage1 from "src/assets/THREE_STACKED_FINAL.jpg";
-import dancaImage2 from "src/assets/THREE_STACKED_ONE_SIDE_FINAL.jpg";
-import dancaImage3 from "src/assets/WITH_CASE_FINAL.jpg";
-import dancaImage4 from "src/assets/SIDE_FINAL.jpg";
-import ceoImage1 from "src/assets/OPENED._FINALjpg.jpg";
-import ceoImage2 from "src/assets/CLOSED_FINAL.jpg";
-import ceoImage3 from "src/assets/DOUBLE_CLOSED_FINAL.jpg";
-import ceoImage4 from "src/assets/DOUBLE_CLOSED_WITH_CASE_FINAL.jpg";
+// import Checkout from "./components/Checkout";
+import dancaImage1 from "../assets/THREE_STACKED_FINAL.jpg";
+import dancaImage2 from "../assets/THREE_STACKED_ONE_SIDE_FINAL.jpg";
+import dancaImage3 from "../assets/WITH_CASE_FINAL.jpg";
+import dancaImage4 from "../assets/SIDE_FINAL.jpg";
+import ceoImage1 from "../assets/OPENED._FINALjpg.jpg";
+import ceoImage2 from "../assets/CLOSED_FINAL.jpg";
+import ceoImage3 from "../assets/DOUBLE_CLOSED_FINAL.jpg";
+import ceoImage4 from "../assets/DOUBLE_CLOSED_WITH_CASE_FINAL.jpg";
 
 import { useForm, ValidationError } from "@formspree/react";
 

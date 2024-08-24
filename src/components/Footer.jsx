@@ -1,7 +1,7 @@
 import React from "react";
-import FooterForm from "/src/components/subcomponents/FooterForm";
-import logo_MD from "/src/assets/MD_logo.svg";
-// import logo_NAME from "/src/assets/Downie_Name.svg";
+import FooterForm from "./subcomponents/FooterForm";
+import logo_MD from "../assets/MD_logo.svg";
+// import logo_NAME from "../assets/Downie_Name.svg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {

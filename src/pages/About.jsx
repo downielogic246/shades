@@ -1,5 +1,5 @@
 import React from "react";
-import CEO from "src/assets/marlon_only.jpg";
+import CEO from "../assets/marlon_only.jpg";
 
 const About = () => {
   return (
