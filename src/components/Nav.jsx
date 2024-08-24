@@ -1,5 +1,5 @@
 import { React, useState, useEffect } from "react";
-import logo_NAME from "/src/assets/Downie_Name_yellow.svg";
+import logo_NAME from "../assets/Downie_Name_yellow.svg";
 import { Link } from "react-router-dom";
 
 const Nav = () => {

@@ -91,11 +91,11 @@ function App() {
     <>
       <Nav />
       <Routes>
-        <Route path="/shades/" element={<Home />} />
-        <Route path="/shades/shop" element={<Shop />} />
-        <Route path="/shades/about" element={<About />} />
-        <Route path="/shades/contact-us" element={<Contact />} />
-        <Route path="/shades/terms" element={<Terms />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact-us" element={<Contact />} />
+        <Route path="/terms" element={<Terms />} />
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
       <Footer />
